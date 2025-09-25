@@ -1,7 +1,5 @@
 # 🌟 Dynamic Resume Creator  
 
-> **Last Updated:** 05 Aug, 2025  
-
 Creating a well-structured and professional resume can be time-consuming and difficult for many job seekers.  
 Challenges like formatting, organizing details, and making the resume stand out are common.  
 
