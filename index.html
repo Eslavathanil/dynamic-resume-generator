@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Resume Creator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Form container -->
+  <section class="resume-builder">
+    <div class="container">
+      <h1>Resume Creator</h1>
+      <form class="inputField">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="text" name="title" placeholder="Title / Sub Heading" />
+        <textarea name="work_experience" placeholder="Work Experience"></textarea>
+        <textarea name="academic_details" placeholder="Academic Details"></textarea>
+        <input type="text" name="objective" placeholder="Objective" />
+        <textarea name="skills" placeholder="Skills"></textarea>
+        <textarea name="projects" placeholder="Projects"></textarea>
+        <textarea name="achievements" placeholder="Achievements"></textarea>
+        <textarea name="contact" placeholder="Contact Information"></textarea>
+      </form>
+      <p class="tip">💡 You can use simple markup in text areas (like *italic*, **bold**)</p>
+      <button onclick="toggleView()">Generate / Edit</button>
+    </div>
+  </section>
+
+  <!-- Resume output -->
+  <div class="output_container"></div>
+
+  <!-- html2pdf.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
